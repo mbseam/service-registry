@@ -1,0 +1,4 @@
+TO INSTALL APPLICATION ON DOCKER
+
+docker build -t service-registry .
+docker run --name service-registry -p 8761:8761 service-registry
